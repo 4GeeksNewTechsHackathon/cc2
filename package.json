@@ -1,6 +1,7 @@
 {
   "name": "levelgeeks-flux",
   "dependencies": {
+    "jquery": "^2.2.0",
     "react": "^0.14.7",
     "reflux": "^0.3.0"
   }
