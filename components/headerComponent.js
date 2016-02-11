@@ -3,7 +3,7 @@ import Reflux from 'reflux';
 
 var HeaderComponent = React.createClass({
   render: function() {
-      return (<div className="header"><p>PRUEBA</p></div>)
+      return (<div><div className="logo"></div><div className="logout pull-right"></div></div>)
   }
 });
 

@@ -32,12 +32,9 @@ var HeaderComponent = _react2['default'].createClass({
   render: function render() {
     return _react2['default'].createElement(
       'div',
-      { className: 'header' },
-      _react2['default'].createElement(
-        'p',
-        null,
-        'PRUEBA'
-      )
+      null,
+      _react2['default'].createElement('div', { className: 'logo' }),
+      _react2['default'].createElement('div', { className: 'logout pull-right' })
     );
   }
 });
