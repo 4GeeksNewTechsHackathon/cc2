@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderComponent from './components/headerComponent';
+import PlayerComponent from './components/playerComponent';
 
 React.render(
   <HeaderComponent/>,
@@ -8,5 +9,5 @@ React.render(
 
 React.render(
     <PlayerComponent/>,
-    document.getElementById('players')
+    document.getElementById('player-container')
 )
