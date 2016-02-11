@@ -5,3 +5,8 @@ React.render(
   <HeaderComponent/>,
   document.getElementById('header')
 )
+
+React.render(
+    <PlayerComponent/>,
+    document.getElementById('players')
+)
