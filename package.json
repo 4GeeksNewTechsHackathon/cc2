@@ -1,3 +1,7 @@
 {
-	"name": "levelgeeks-flux"
+  "name": "levelgeeks-flux",
+  "dependencies": {
+    "react": "^0.14.7",
+    "reflux": "^0.3.0"
+  }
 }
