@@ -1,8 +1,13 @@
 {
-  "name": "levelgeeks-flux",
-  "dependencies": {
-    "jquery": "^2.2.0",
-    "react": "^0.14.7",
-    "reflux": "^0.3.0"
-  }
+    "name": "levelgeeks-flux",
+    "dependencies": {
+        "babelify": "^6.1.2",
+        "browserify": "^10.2.4",
+        "jquery": "^2.1.4",
+        "react": "^0.13.3",
+        "reflux": "^0.2.8"
+    },
+    "scripts": {
+        "build": "browserify -t babelify app.js > build.js"
+    }
 }
