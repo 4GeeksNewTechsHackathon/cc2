@@ -24,7 +24,8 @@ body {
 
 #player-container, #detail-container{
     border: 1px solid;
-    min-height: 500px;
+    min-height: 700px;
+    border-color: white;
 }
 
 .player{
@@ -32,6 +33,7 @@ body {
     border-bottom: 2px solid white;
     margin: 10px;
     padding: 5px;
+
 }
 
 .player:last-child {
@@ -63,4 +65,11 @@ body {
 progress{
     border: 2px;
     border-radius: 15px;
+}
+
+.detail {
+ 
+background-color: #0000CD;
+background: rgba(0, 0, 255, 0.3);
+
 }
