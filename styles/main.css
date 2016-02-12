@@ -37,3 +37,8 @@ body {
 .player:last-child {
     border-bottom: none;
 }
+
+#detail-container{
+
+    display: inline-block;
+}
