@@ -42,3 +42,25 @@ body {
 
     display: inline-block;
 }
+
+.loguito {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 100px;
+    width: 100px;
+}
+
+.bar-progress{
+
+    margin-left: 150px;
+    margin-top: -50px;
+    height: 100px;
+    width: 700px;
+    
+
+}
+
+progress{
+    border: 2px;
+    border-radius: 15px;
+}

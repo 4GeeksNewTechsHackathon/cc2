@@ -47,13 +47,13 @@ var DetailPlayer = _react2['default'].createClass({
             { className: 'detail row' },
             _react2['default'].createElement(
                 'div',
-                { className: 'col-md-3' },
+                { className: 'loguito' },
                 _react2['default'].createElement('img', { src: 'images/player.png', alt: '', className: 'img-fluid' }),
                 ' '
             ),
             _react2['default'].createElement(
                 'div',
-                { className: 'col-md-3' },
+                { className: 'bar-progress' },
                 ' ',
                 _react2['default'].createElement(
                     'progress',
