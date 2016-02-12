@@ -24,7 +24,8 @@ body {
 
 #player-container, #detail-container{
     border: 1px solid;
-    min-height: 500px;
+    min-height: 700px;
+    border-color: white;
 }
 
 .player{
@@ -32,8 +33,43 @@ body {
     border-bottom: 2px solid white;
     margin: 10px;
     padding: 5px;
+
 }
 
 .player:last-child {
     border-bottom: none;
+}
+
+#detail-container{
+
+    display: inline-block;
+}
+
+.loguito {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 100px;
+    width: 100px;
+}
+
+.bar-progress{
+
+    margin-left: 150px;
+    margin-top: -50px;
+    height: 100px;
+    width: 700px;
+    
+
+}
+
+progress{
+    border: 2px;
+    border-radius: 15px;
+}
+
+.detail {
+ 
+background-color: #0000CD;
+background: rgba(0, 0, 255, 0.3);
+
 }
