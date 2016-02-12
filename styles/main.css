@@ -1,15 +1,12 @@
 header {
-
     background-color: #FFFFFF;
     height: 100px;
     width:  100%;
     margin-top: -8px;
     box-shadow: 2px 2px 5px #000000;
-
 }
 
 body {
-
     background-image: url("../images/background.png");
     background-size: cover;
     margin: 0;
@@ -26,15 +23,14 @@ body {
     border: 1px solid;
     min-height: 700px;
     border-color: white;
-    
 }
 
 .player{
+    cursor: pointer;
     color: white;
     border-bottom: 2px solid white;
     margin: 10px;
     padding: 5px;
-
 }
 
 .player:last-child {
@@ -42,7 +38,6 @@ body {
 }
 
 #detail-container{
-
     display: inline-block;
 }
 
@@ -54,13 +49,10 @@ body {
 }
 
 .bar-progress{
-
     margin-left: 150px;
     margin-top: -50px;
     height: 100px;
     width: 700px;
-    
-
 }
 
 progress{
@@ -69,8 +61,6 @@ progress{
 }
 
 .detail {
- 
-background-color: #0000CD;
-background: rgba(0, 0, 255, 0.3);
-
+    background-color: #0000CD;
+    background: rgba(0, 0, 255, 0.3);
 }

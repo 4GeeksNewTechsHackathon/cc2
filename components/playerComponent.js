@@ -5,7 +5,7 @@ import DataStore from '../stores/DataStore';
 var PlayerComponent = React.createClass({
   mixins: [Reflux.connect(DataStore, 'playersData')],
 
-  render: function() {console.log(this.state.playersData);
+  render: function() {
       if (this.state.playersData) {
           return (<div>
               {
@@ -14,7 +14,7 @@ var PlayerComponent = React.createClass({
                       <div className="col-md-4"><img src={player.picture} alt="Player picture" className="img-fluid"/></div>
                       <div className="col-md-8"><span className="text-center">{player.name}</span><br/><span className="text-center">{player.points}</span></div>
                       </div>)
-                  })
+                  },this)
               }
               </div>)
       } else {
@@ -24,5 +24,3 @@ var PlayerComponent = React.createClass({
 });
 
 module.exports = PlayerComponent;
-
-

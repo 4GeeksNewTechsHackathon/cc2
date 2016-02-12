@@ -23,8 +23,16 @@ var DataStore = Reflux.createStore({
         //         this.trigger(this.data);
         //     }
         // });
-        this.playersData = [{name:'Nabila Diaz', points: '110', picture: 'images/player.png'}, {name:'Marlon Maldonado', points: '200', picture: 'images/profile.jpg'}, {name:'Hendrix Roa', points: '150', picture: 'images/profile.jpg'}]
-        this.trigger(this.playersData);console.log(this.playersData);
+        this.playersData = [{name:'Nabila Diaz', points: '110', picture: 'images/player.png'},
+                            {name:'Marlon Maldonado', points: '100', picture: 'images/profile.jpg'},
+                            {name:'Hendrix Roa', points: '150', picture: 'images/profile.jpg'},
+                            {name:'Gisbel De Ascensao', points: '170', picture: 'images/player.png'},
+                            {name:'Eloy Toro', points: '180', picture: 'images/profile.jpg'},
+                            {name:'Oscar Zambrano', points: '170', picture: 'images/profile.jpg'},
+                            {name:'Albert Usaqui', points: '190', picture: 'images/profile.jpg'},
+                            {name:'Marco Gomez', points: '150', picture: 'images/profile.jpg'},
+                            {name:'Eny Rueda', points: '150', picture: 'images/profile.jpg'}];
+        this.trigger(this.playersData);
     }
 });
 
